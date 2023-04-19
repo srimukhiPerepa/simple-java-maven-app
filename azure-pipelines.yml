@@ -21,3 +21,5 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 - script: echo $(test_var1)
+- script: echo $(test_var2)
+- script: echo $(test_var3)
